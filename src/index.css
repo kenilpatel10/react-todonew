@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'montseratt', sans-serif ;
+}
+
+.app{
+  background-image: url('./assets/cold.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+.app-warm{
+  background-image: url('./assets/warm.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+main{
+  min-height: 100vh;
+  background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  padding: 25px;
+
+}
+
+ /* .form-control{
+  width: 100px;
+  margin: 1000 0 -38px;
+} */
+/* .temp-box{
+
+  width:300px;
+  height: 100px;
+  margin-top: 200px;
+  /* background-color:cornsilk ; */
+  
+
+ 
+  /* align-self: center; */
+  /* text-align-last: justify; */
+/* } */
+.temp{
+  /* margin-top: 250px; */
+  /* margin-left: 1000px; */
+  opacity: .90;
+  font-size:100px;
+  font-weight: 1000;
+  text-align: center;
+  color: bisque;
+
+}
+
+.date{
+  opacity: .90;
+  margin-top: 50px;
+  /* margin-left: 500px; */
+  font-size:30px;
+  font-weight: 1000;
+  text-align: center;
+  color: bisque;
+
+}
+
+
